@@ -8,6 +8,11 @@ header {
     padding: 20px;   
 }
 
+.navbar-bg {
+    background-color: #2ac1cf;
+    opacity: 0.9;
+}
+
 
 .navbar {
     color: #f2cee7; 
