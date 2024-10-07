@@ -3,23 +3,23 @@
     <meta cahrset="ÜTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="jem.css">
+    <link rel="stylesheet" href="style.css">
     <title>The Great Archive</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-bg">
+        <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand text-light fw-bold" href="#">Bloom Flower Bouquet Shop</a>
                 <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>                
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#Home">Home</a>
                         </li>
-                        <li class="nav-item"> 
+                        <li class="nav-item">
                             <a class="nav-link" href="#Flowers">Bouquets</a>
                         </li>
                         <li class="nav-item">
@@ -35,82 +35,81 @@
                 </div>
             </div>
         </nav>
-        
     </header>
+    
     <main>
         <section id="Home">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="assets/backflow3.webp" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="assets/backflow3.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <!-- Add more carousel items here if needed -->
+                </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
             
-        </section>
-
-        <div id="Flowers">
-            <h1>Product</h1>
-            <div class="row ms-5">
-                <div class="cols col-4 my-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/rose.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Rose</h5>
+              <section id="Flowers">
+                <h1>Product</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/rose.webp" class="card-img-top" alt="Rose">
+                            <div class="card-body">
+                                <h5 class="card-title">Rose</h5>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="cols col-4 my-5">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/lily.webp" class="card-img-top" alt="...">
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/lily.webp" class="card-img-top" alt="Lily">
                             <div class="card-body">
                                 <h5 class="card-title">Lily</h5>
                             </div>
-                          </div>
                         </div>
-                        <div class="cols col-4 my-5">
-                            <div class="card" style="width: 18rem;">
-                                <img src="assets/sunflower.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sunflower</h5>
-                                </div>
-                              </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/sunflower.webp" class="card-img-top" alt="Sunflower">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunflower</h5>
                             </div>
-                            <div class="cols col-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="assets/tulips.webp" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Tulips</h5>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="cols col-4">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="assets/orchids.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Orchids</h5>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="cols col-4">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="assets/carnation.jpg" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Carnation</h5>
-                                            </div>
-                                          </div>
-                                        </div>
-
-            </div>
-
-        </section>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/tulips.webp" class="card-img-top" alt="Tulips">
+                            <div class="card-body">
+                                <h5 class="card-title">Tulips</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/orchids.jpg" class="card-img-top" alt="Orchids">
+                            <div class="card-body">
+                                <h5 class="card-title">Orchids</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 my-5">
+                        <div class="card">
+                            <img src="assets/carnation.jpg" class="card-img-top" alt="Carnation">
+                            <div class="card-body">
+                                <h5 class="card-title">Carnation</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
 
         <section id="Background">
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -121,79 +120,80 @@
           
       </section>
 
-        <section id="Flower-Price">
-    <div id="Flower-name">
-        <h1>The Best Selling Flower Bouquets</h1>
-        <div class="row ms-5">
-            <!-- Rose Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/rose.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Rose</h5>
-                        <p class="card-text">Roses are the epitome of beauty and elegance, making them a favorite in any flower shop.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roseModal">Buy Now</a>
+      <section id="Flower-Price">
+        <div id="Flower-name">
+            <h1>The Best Selling Flower Bouquets</h1>
+            <div class="row mx-5">
+                <!-- Rose Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/rose.webp" class="card-img-top" alt="Rose">
+                        <div class="card-body">
+                            <h5 class="card-title">Rose</h5>
+                            <p class="card-text">Roses are the epitome of beauty and elegance, making them a favorite in any flower shop.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roseModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Lily Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/lily.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lily</h5>
-                        <p class="card-text">Lilies are exquisite flowers known for their striking beauty and captivating fragrance.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#lilyModal">Buy Now</a>
+                <!-- Lily Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/lily.webp" class="card-img-top" alt="Lily">
+                        <div class="card-body">
+                            <h5 class="card-title">Lily</h5>
+                            <p class="card-text">Lilies are exquisite flowers known for their striking beauty and captivating fragrance.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#lilyModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Sunflower Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/sunflower.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Sunflower</h5>
-                        <p class="card-text">Sunflowers are vibrant and cheerful blooms that instantly brighten any space.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sunflowerModal">Buy Now</a>
+                <!-- Sunflower Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/sunflower.webp" class="card-img-top" alt="Sunflower">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunflower</h5>
+                            <p class="card-text">Sunflowers are vibrant and cheerful blooms that instantly brighten any space.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sunflowerModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Tulip Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/tulips.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Tulips</h5>
-                        <p class="card-text">Tulips are elegant and versatile flowers that embody grace and beauty.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tulipModal">Buy Now</a>
+                <!-- Tulip Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/tulips.webp" class="card-img-top" alt="Tulips">
+                        <div class="card-body">
+                            <h5 class="card-title">Tulips</h5>
+                            <p class="card-text">Tulips are elegant and versatile flowers that embody grace and beauty.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tulipModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Orchid Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/orchids.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Orchids</h5>
-                        <p class="card-text">Orchids are exotic and sophisticated flowers known for their stunning beauty.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orchidModal">Buy Now</a>
+                <!-- Orchid Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/orchids.jpg" class="card-img-top" alt="Orchids">
+                        <div class="card-body">
+                            <h5 class="card-title">Orchids</h5>
+                            <p class="card-text">Orchids are exotic and sophisticated flowers known for their stunning beauty.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orchidModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Carnation Card -->
-            <div class="cols col-4 my-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/carnation.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Carnation</h5>
-                        <p class="card-text">Carnations are timeless and versatile flowers that add a touch of charm to any arrangement.</p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carnationModal">Buy Now</a>
+                <!-- Carnation Card -->
+                <div class="col-12 col-sm-6 col-md-4 my-5">
+                    <div class="card">
+                        <img src="assets/carnation.jpg" class="card-img-top" alt="Carnation">
+                        <div class="card-body">
+                            <h5 class="card-title">Carnation</h5>
+                            <p class="card-text">Carnations are timeless and versatile flowers that add a touch of charm to any arrangement.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#carnationModal">Buy Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    
 
 <!-- Modals for each flower -->
 <!-- Rose Modal -->
@@ -611,8 +611,8 @@
                     Founded by passionate florists with a love for nature and creativity, we believe that flowers have the power to brighten any occasion, from weddings and anniversaries to simple moments of everyday joy. Our team carefully selects each stem, ensuring that our bouquets reflect the seasons and the latest trends.
                 </p>
                 <div class="mt-3 d-lg-flex justify-content-center">
-                    <a href="https://facebook.com/jemarcpascua.delarosa" class="btn btn-outline-danger mx-2">Facebook</a>
-                    <a href="https://tiktok.com/@cramej27" class="btn btn-outline-danger mx-2">TikTok</a>
+                    <a href="https://facebook.com/jemarcpascua.delarosa" class="btn btn-outline-info mx-2">Facebook</a>
+                    <a href="https://tiktok.com/@cramej27" class="btn btn-outline-dark mx-2">TikTok</a>
                     <a href="tel:+9317962098" class="btn btn-outline-danger mx-2">Call Us</a>
                 </div>
             </div>
@@ -624,7 +624,7 @@
         
 
         <footer class="bg-dark text-light p-5 text-center">
-            <h2 class="display-6 fw-light mb-4">Bloom Flower Bouquet Shop</h2>
+            <h2 class="display-6 fw-light mb-4 text-white">Bloom Flower Bouquet Shop</h2>
             <ul class="nav jutify-content-center">
                 <li class="nav-item">
                     <a class="nav-link text -light fw-light" aria-current="page" href="#Home">Home</a>
